@@ -15,7 +15,7 @@ from pyrogram.errors import (
 API_TEXT = """Hi, {}.
 This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.help groups in [cgs technology grouo](https://t.me/cgs_technology) and 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
-By @kmsrk 
+By @kmsrk <img src="https://telegra.ph//file/1618281765876347eb971.jpg">
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
