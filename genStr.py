@@ -18,7 +18,7 @@ This is Pyrogram's String Session Generator Bot. I will generate String Session 
 Developer gruops 👇
 [cgs technology grouo](https://t.me/cgs_technology) 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
-Owner @kmsrk @Humangasor and  <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
+Owner @kmsrk  <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
