@@ -13,7 +13,7 @@ from pyrogram.errors import (
 )
 
 API_TEXT = """Hi, {}.
-This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.help groups in [cgs technology grouo](https://t.me/cgs_technology) and 
+This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in [cgs technology grouo](https://t.me/cgs_technology) and 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
 By @kmsrk <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
