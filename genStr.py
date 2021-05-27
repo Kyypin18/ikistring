@@ -13,15 +13,15 @@ from pyrogram.errors import (
 )
 
 API_TEXT = """Hi, {}.
-This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.
+This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.help groups in https://t.me/cgs_technology and https://t.me/SL_TECH_MIDEA_GROUP
 
-By @Discovery_Updates
+By @kmsrk
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
-    "Including Country code. Example: **+14154566376**\n\n"
+    "Including Country code. Example: **+94760973836**\n\n"
     "Press /cancel to Cancel Task."
 )
 
@@ -124,7 +124,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@StringSessionGen_Bot](tg://openmessage?user_id=1472531255) \nA Bot By @Discovery_Updates")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@Cgsl_string_bot](tg://openmessage?user_id=1472531255) \nA Bot By @Discovery_Updates")
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
@@ -159,11 +159,12 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Support Group', url='https://t.me/linux_repo'),
-                InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')
+                InlineKeyboardButton('Support Group', url='https://t.me/cgs_technology'),
+                InlineKeyboardButton('Support Group2', url='https://t.me/SL_MIDEA_TECH_GROUP'),
+                InlineKeyboardButton('Developer', url='https://t.me/kmsrk')
             ],
             [
-                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/Discovery_Updates'),
+                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/cgs_technology_channel'),
             ]
         ]
     )
