@@ -13,9 +13,12 @@ from pyrogram.errors import (
 )
 
 API_TEXT = """Hi, {}.
-This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in [cgs technology grouo](https://t.me/cgs_technology) and 
+This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in 
+
+Developer gruops 👇
+[cgs technology grouo](https://t.me/cgs_technology) 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
-By @kmsrk <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
+Owner @kmsrk @Humangasor and  <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
@@ -124,7 +127,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@Cgsl_string_bot](tg://openmessage?user_id=1472531255) \nA Bot By @Discovery_Updates")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [Cgsl_string_bot](tg://openmessage?user_id=1472531255) \nA ")
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
@@ -160,11 +163,11 @@ Must Join Channel for Bot Updates !!
         [
             [
                 InlineKeyboardButton('Support Group', url='https://t.me/cgs_technology'),
-                InlineKeyboardButton('Support Group2', url='https://t.me/SL_MIDEA_TECH_GROUP'),
+                InlineKeyboardButton('Support Group2', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
                 InlineKeyboardButton('Developer', url='https://t.me/kmsrk')
             ],
             [
-                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/cgs_technology_channel'),
+                InlineKeyboardButton('developer 02', url='https://t.me/@Humangasor'),
             ]
         ]
     )
