@@ -18,7 +18,7 @@ This is Pyrogram's String Session Generator Bot. I will generate String Session 
 Developer gruops 👇
 [cgs technology grouo](https://t.me/cgs_technology) 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
-Owner @kmsrk  <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
+Owner @kmsrk and @Humangasor <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
@@ -127,7 +127,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [Cgsl_string_bot](tg://openmessage?user_id=1472531255) \nA ")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [Cgsl_string_bot](tg://openmessage?user_id=1472531255) \n ")
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
@@ -164,10 +164,10 @@ Must Join Channel for Bot Updates !!
             [
                 InlineKeyboardButton('Support Group', url='https://t.me/cgs_technology'),
                 InlineKeyboardButton('Support Group2', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
-                InlineKeyboardButton('Developer', url='https://t.me/kmsrk')
+                InlineKeyboardButton('Developer 01', url='https://t.me/Humangasor')
             ],
             [
-                InlineKeyboardButton('support chanel', url='https://t.me/cgs_technology_channel'),
+                InlineKeyboardButton('developer 02', url='https://t.me/kmsrk'),
             ]
         ]
     )
