@@ -12,11 +12,11 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """Hi, {}.[😁](https://telegra.ph//file/e2a5e81314ad44b9ddeae.jpg)
+API_TEXT = """Hi, {}.
 This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in 
 
 Developer gruops 👇
-[cgs technology grouo](https://t.me/cgs_technology) 
+[svl devils](https://t.me/DataHoru_Internet) 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
 Owner @kmsrk and @Humangasor <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
@@ -162,12 +162,12 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Support Group', url='https://t.me/cgs_technology'),
-                InlineKeyboardButton('Support Group2', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
+                InlineKeyboardButton('Support Group01', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
+                InlineKeyboardButton('Support Group2', url='https://t.me/DataHoru_Internet'),
                 InlineKeyboardButton('Developer 01', url='https://t.me/Humangasor')
             ],
             [
-                InlineKeyboardButton('developer 02', url='https://t.me/kmsrk'),
+                InlineKeyboardButton('developer 02', url='https://t.me/@Akilawiduruwan'),
             ]
         ]
     )
