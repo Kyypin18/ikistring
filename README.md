@@ -19,7 +19,7 @@ Generate Pyrogram String Session Using this bot.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CGSL-TEAM/TG-String-Session/tree/main)
 
 ## Support Group:
-<a href="https://t.me/cgs_technology"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/SL_MEDIA_TECH_GRUOP<img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 #### Coded By
 
