@@ -16,9 +16,9 @@ API_TEXT = """Hi, {}.
 This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in 
 
 Developer gruops 👇
-[svl devils](https://t.me/DataHoru_Internet) 
+[SL devils](https://t.me/DataHoru_Internet) 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
-Owner @kmsrk and @Humangasor <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
+Owner @Akilawiduruwan and @Humangasor <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
