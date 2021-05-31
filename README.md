@@ -1,8 +1,7 @@
 # TG-String-Session
 Generate Pyrogram String Session Using this bot.
 
-## Demo Bot:
- src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+## powerd by sl media tech
 
 ## Configs:
 - API_HASH
