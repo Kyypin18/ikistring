@@ -16,7 +16,7 @@ API_TEXT = """Hi, {}.
 This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in 
 
 Developer gruops 👇
-[SL devils](https://t.me/DataHoru_Internet) 
+[NOVA TECHNOLOGY](https://t.me/NovaTechlk) 
 [Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
 Owner @Akilawiduruwan and @Humangasor <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
 
@@ -163,7 +163,7 @@ Must Join Channel for Bot Updates !!
         [
             [
                 InlineKeyboardButton('Support Group01', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
-                InlineKeyboardButton('Support Group2', url='https://t.me/DataHoru_Internet'),
+                InlineKeyboardButton('Support Group2', url='https://t.me/NovaTechlk'),
                 InlineKeyboardButton('Developer 01', url='https://t.me/Humangasor')
             ],
             [
