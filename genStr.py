@@ -12,20 +12,7 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """Hi, {}.
-This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account. help groups in 
-
-Developer gruops 👇
-[NOVA TECHNOLOGY](https://t.me/NovaTechlk) 
-[Sl MEDIA TECH GROUP](https://t.me/SL_MEDIA_TECH_GRUOP)
-Owner @Akilawiduruwan and @Humangasor <img src="https://telegra.ph//file/c1b82adcc88e2890d8c41.jpg">
-
-Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
-HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
-PHONE_NUMBER_TEXT = (
-    "Now send your Telegram account's Phone number in International Format. \n"
-    "Including Country code. Example: **+94760973836**\n\n"
-    "Press /cancel to Cancel Task."
+API_TEXT = """"
 )
 
 @bot.on_message(filters.private & filters.command("start"))
@@ -162,12 +149,12 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Support Group01', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
-                InlineKeyboardButton('Support Group2', url='https://t.me/NovaTechlk'),
-                InlineKeyboardButton('Developer 01', url='https://t.me/Humangasor')
+                InlineKeyboardButton('⛩️ 𝙂𝙧𝙤𝙪𝙥 1 ⛩️', url='https://t.me/wibuhouse'),
+                InlineKeyboardButton('🏘️ 𝙂𝙧𝙤𝙪𝙥 2 🏘️', url='https://t.me/wibulodging'),
+                InlineKeyboardButton('👩‍💻 𝙊𝙬𝙣𝙚𝙧 👩‍💻', url='https://t.me/skytrixsz')
             ],
             [
-                InlineKeyboardButton('developer 02', url='https://t.me/@Akilawiduruwan'),
+                InlineKeyboardButton('ℹ️ 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ℹ️', url='https://t.me/skytrixch'),
             ]
         ]
     )
